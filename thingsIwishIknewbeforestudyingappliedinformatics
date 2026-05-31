@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>10 Things I Wish I Knew Before Studying Applied Informatics - ByteGo</title>
+
+<meta name="description" content="ARTICLE DESCRIPTION">
+<meta name="keywords" content="keyword1, keyword2, keyword3">
+<meta name="author" content="ByteGo">
+
+<style>
+body{
+    font-family:'Segoe UI',Arial,sans-serif;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+    line-height:1.8;
+    color:#2D1B4E;
+}
+
+h1{
+    font-size:2.3rem;
+    margin-bottom:10px;
+}
+
+h2{
+    margin-top:40px;
+}
+
+.hero-image{
+    width:100%;
+    border-radius:12px;
+    margin:20px 0;
+}
+
+.article-meta{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.toc{
+    background:#f8f8f8;
+    padding:20px;
+    border-radius:10px;
+    margin:30px 0;
+}
+
+.toc ul{
+    padding-left:20px;
+}
+
+.tip-box{
+    background:#eef6ff;
+    padding:15px;
+    border-left:5px solid #4a90e2;
+    border-radius:8px;
+    margin:20px 0;
+}
+
+.warning-box{
+    background:#fff4e5;
+    padding:15px;
+    border-left:5px solid #ff9800;
+    border-radius:8px;
+    margin:20px 0;
+}
+
+.conclusion{
+    background:#f7f7f7;
+    padding:20px;
+    border-radius:10px;
+    margin-top:40px;
+}
+
+a{
+    color:#4a90e2;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+</style>
+</head>
+
+<body>
+
+<article>
+
+<h1>5 Things I Wish I Knew Before Studying Applied Informatics</h1>
+
+<div class="article-meta">
+    Published: DATE • Reading Time: X min
+</div>
+
+<img src="" alt="ARTICLE IMAGE ALT TEXT" class="hero-image">
+
+<p>
+    Studying Applied Informatics has given me insights into the technology field that I never had before. 
+Before starting my studies, I thought informatics was mostly about coding and building software. 
+However, I quickly discovered that the field is much larger and more diverse than most outsiders imagine.
+From algorithms and databases to cybersecurity, networking, artificial intelligence, and project management, Applied Informatics covers a wide range of disciplines. Looking back, there are many things I wish I had known before starting this journey. 
+They would not have changed my decision, but they would have helped me prepare better for what was ahead.
+</p>
+
+<div class="toc">
+    <strong>Table of Contents</strong>
+    <ul>
+        <li><a href="#section1">1. Coding ≠ Programming</a></li>
+        <li><a href="#section2">Section 2</a></li>
+        <li><a href="#section3">Section 3</a></li>
+        <li><a href="#section4">Section 4</a></li>
+<li><a href="#section5">Section 5</a></li>
+    </ul>
+</div>
+
+<h2 id="section1">Section 1</h2>
+
+<h2>1. Coding ≠ Programming</h2>
+
+<p>
+One of the most common misconceptions I had before studying Applied Informatics was believing that coding and programming were the same thing. In reality, coding is only a small part of the software development process.
+</p>
+
+<p>
+Writing code is simply translating instructions into a programming language. Programming, however, involves planning, designing, solving problems, testing, and maintaining software. When creating any type of platform—whether it's a game, mobile application, desktop application, or website—many steps must be considered before a single line of code is written.
+</p>
+
+<h3>Planning</h3>
+
+<p>
+The first question is: What are you building?
+</p>
+
+<p>
+Is it a game? A desktop application? A mobile app? A web platform? Defining the purpose and goals of the project is the foundation of the entire development process.
+</p>
+
+<h3>User Flow</h3>
+
+<p>
+Another important step is designing the user flow. Developers need to think about how users will interact with the platform and what actions they will take from start to finish.
+</p>
+
+<p>For example, if you are building an online store, a user might:</p>
+
+<ol>
+    <li>Open the website.</li>
+    <li>Browse products.</li>
+    <li>Add items to the cart.</li>
+    <li>Proceed to checkout.</li>
+    <li>Complete payment.</li>
+    <li>Receive an order confirmation.</li>
+</ol>
+
+<p>
+Each step must be carefully planned to create a smooth user experience.
+</p>
+
+<h3>Design and Architecture</h3>
+
+<p>
+Before coding begins, developers often create wireframes, diagrams, and system designs. These help visualize how the application will work and how different components will communicate with each other.
+</p>
+
+<h3>Coding Is Only the Beginning</h3>
+
+<p>
+Once the planning and design stages are complete, coding can finally begin. However, even after the code is written, developers still need to test the software, fix bugs, improve performance, and maintain the project over time.
+</p>
+
+<p>
+Studying Applied Informatics taught me that programming is much more than writing code. It is a structured process that combines technical skills, problem-solving, planning, and creativity to build software that people can actually use.
+</p>
+<br/>
+
+<h2 id="section2">Building a Website Is More Than Writing Code</h2>
+
+
+<h2>Building a Website Is More Than Writing Code</h2>
+
+<p>
+Before studying Applied Informatics, I thought creating a website was mostly about writing HTML, CSS, and JavaScript. What I did not realize was that publishing a website involves many other skills.
+</p>
+
+<p>
+For example, I learned how to integrate a contact form so visitors can send messages, create a sitemap to help search engines understand my website structure, and set up Google Search Console to improve indexing and visibility on Google. These tasks are just as important as coding because they help transform a simple website into a real online project that people can actually find and use.
+</p>
+
+<p>
+Through building my own blog, I discovered that web development is not only about creating pages—it is also about deployment, SEO, user experience, and maintaining an online presence.
+</p>
+
+<h2 id="section3">Section 3</h2>
+
+<p>
+    CONTENT...
+</p>
+
+<div class="warning-box">
+    WARNING OR COMMON MISTAKE
+</div>
+
+<h2 id="section4">Section 4</h2>
+
+<p>
+    CONTENT...
+</p>
+
+<div class="conclusion">
+    <h2>Conclusion</h2>
+    <p>
+        FINAL SUMMARY...
+    </p>
+</div>
+
+</article>
+
+</body>
+</html>
