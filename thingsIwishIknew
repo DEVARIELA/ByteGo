@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>5 Things I Wish I Knew Before Studying Applied Informatics - ByteGo</title>
+
+<meta name="description" content="A personal guide sharing key lessons and insights before studying Applied Informatics, including programming, web development, and real-world skills.">
+<meta name="keywords" content="applied informatics, programming, web development, coding, software engineering, student guide">
+<meta name="author" content="ByteGo">
+
+<style>
+body{
+    font-family:'Segoe UI',Arial,sans-serif;
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+    line-height:1.8;
+    color:#2D1B4E;
+}
+
+h1{font-size:2.3rem;margin-bottom:10px;}
+h2{margin-top:40px;}
+
+.hero-image{
+    width:100%;
+    border-radius:12px;
+    margin:20px 0;
+}
+
+.article-meta{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.toc{
+    background:#f8f8f8;
+    padding:20px;
+    border-radius:10px;
+    margin:30px 0;
+}
+
+.toc ul{padding-left:20px;}
+
+.tip-box{
+    background:#eef6ff;
+    padding:15px;
+    border-left:5px solid #4a90e2;
+    border-radius:8px;
+    margin:20px 0;
+}
+
+.warning-box{
+    background:#fff4e5;
+    padding:15px;
+    border-left:5px solid #ff9800;
+    border-radius:8px;
+    margin:20px 0;
+}
+
+.conclusion{
+    background:#f7f7f7;
+    padding:20px;
+    border-radius:10px;
+    margin-top:40px;
+}
+
+a{
+    color:#4a90e2;
+    text-decoration:none;
+}
+
+a:hover{text-decoration:underline;}
+</style>
+</head>
+
+<body>
+
+<article>
+
+<h1>5 Things I Wish I Knew Before Studying Applied Informatics</h1>
+
+<div class="article-meta">
+    Published: June 2026 • Reading Time: 6 min
+</div>
+
+<img src="https://via.placeholder.com/900x400" alt="Applied Informatics illustration" class="hero-image">
+
+<p>
+Studying Applied Informatics has given me insights into technology that I never had before. Before starting, I thought it was only about coding, but it turned out to be much broader and more structured.
+</p>
+
+<div class="toc">
+    <strong>Table of Contents</strong>
+    <ul>
+        <li><a href="#coding">1. Coding ≠ Programming</a></li>
+        <li><a href="#webdev">2. Building a Website Is More Than Writing Code</a></li>
+        <li><a href="#databases">3. Databases Matter More Than You Think</a></li>
+        <li><a href="#algorithms">4. Algorithms Are About Thinking, Not Memorizing</a></li>
+        <li><a href="#reality">5. Real-World Projects Matter More Than Theory</a></li>
+    </ul>
+</div>
+
+<h2 id="coding">1. Coding ≠ Programming</h2>
+
+<p>
+Coding is only the act of writing instructions in a programming language. Programming includes planning, problem-solving, testing, and maintaining software.
+</p>
+
+<h3>Planning</h3>
+<p>You always start by defining what you're building and why.</p>
+
+<h3>User Flow</h3>
+<p>For example, in an online shop, users browse products, add to cart, and complete checkout in a structured flow.</p>
+
+<h3>Design & Architecture</h3>
+<p>Before coding, systems are designed using diagrams and wireframes to understand how everything connects.</p>
+
+<div class="tip-box">
+Programming is not typing code — it is solving problems step by step.
+</div>
+
+<h2 id="webdev">2. Building a Website Is More Than Writing Code</h2>
+
+<p>
+I used to think websites were just HTML, CSS, and JavaScript. In reality, deployment, SEO, forms, hosting, and analytics are equally important.
+</p>
+
+<p>
+For example, adding a contact form, creating a sitemap, and setting up Google Search Console are essential steps for making a website visible and functional.
+</p>
+
+<h2 id="databases">3. Databases Matter More Than You Think</h2>
+
+<p>
+Almost every application depends on databases. Understanding how data is stored, queried, and optimized is critical in real projects.
+</p>
+
+<h2 id="algorithms">4. Algorithms Are About Thinking, Not Memorizing</h2>
+
+<p>
+Algorithms are not about memorizing formulas but about learning how to break down problems logically and efficiently.
+</p>
+
+<div class="warning-box">
+A common mistake is trying to memorize solutions instead of understanding logic.
+</div>
+
+<h2 id="reality">5. Real-World Projects Matter More Than Theory</h2>
+
+<p>
+Theory is important, but real understanding comes from building projects, making mistakes, and fixing real problems.
+</p>
+
+<div class="conclusion">
+    <h2>Conclusion</h2>
+    <p>
+        Applied Informatics is not just a technical field — it is a combination of logic, creativity, and real-world problem solving. The earlier you start building projects, the faster you grow.
+    </p>
+</div>
+
+</article>
+
+</body>
+</html>
