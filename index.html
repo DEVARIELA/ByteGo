@@ -27,7 +27,7 @@
 
   header h1 {
     margin: 0;
-    font-size: 40px;
+    font-size: clamp(2rem, 5vw, 3rem);
   }
 
   header p {
@@ -62,14 +62,21 @@
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     transition: 0.3s;
-  }
-
-  .card:hover {
-    transform: translateY(-5px);
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .card h2 {
     margin-top: 0;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #F1C5E2;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    margin-bottom: 10px;
   }
 
   footer {
@@ -80,13 +87,59 @@
     border-radius: 25px 25px 0 0;
   }
 
-  .tag {
-    display: inline-block;
-    background: #F1C5E2;
-    padding: 5px 10px;
-    border-radius: 12px;
-    font-size: 12px;
-    margin-bottom: 10px;
+  @media (hover: hover) {
+    .card:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  /* Mobile Responsive */
+  @media (max-width: 768px) {
+
+    header {
+      padding: 30px 15px;
+    }
+
+    header h1 {
+      font-size: 30px;
+    }
+
+    header p {
+      font-size: 16px;
+    }
+
+    nav {
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    nav a {
+      font-size: 14px;
+      padding: 5px;
+    }
+
+    main {
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+
+    .card {
+      padding: 15px;
+    }
+
+    .card h2 {
+      font-size: 22px;
+    }
+
+    .card p {
+      font-size: 15px;
+    }
+
+    footer {
+      padding: 15px;
+      font-size: 14px;
+    }
   }
 </style>
 
@@ -113,21 +166,21 @@
     <span class="tag">AI</span>
     <h2>10 AI Tools That Save You Time</h2>
     <p>Discover powerful AI tools that help you study, work, and create faster in 2026.</p>
-    <a href="linkhere1.html"> Link Here</a>
+    <a href="linkhere1.html"> Read Article</a>
   </div>
 
   <div class="card">
     <span class="tag">Tech</span>
     <h2>What is AI and How It Works</h2>
     <p>A simple explanation of Artificial Intelligence without complicated terms.</p>
-    <a href="linkhere2.html">Link Here</a>
+    <a href="linkhere2.html">Read Article</a>
   </div>
 
   <div class="card">
     <span class="tag">Tutorial</span>
     <h2>How to Speed Up Your Laptop</h2>
     <p>Step-by-step guide to make your computer faster without installing heavy software.</p>
-    <a href="linkhere3.html">Link Here</a>
+    <a href="linkhere3.html">Read Article</a>
   </div>
 
 </main>
