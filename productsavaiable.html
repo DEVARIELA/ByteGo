@@ -18,21 +18,31 @@
         padding: 90px 20px 50px;
     }
 
-    /* Stilimi i ri për header-in sipas dizajnit të kërkuar */
+    /* Stilimi i ri i përshtatur fiks si te image_d49d75.png */
     .products-header h1 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
         font-size: 4rem;
         font-weight: 900;
         margin-bottom: 12px;
-        letter-spacing: -1px;
+        letter-spacing: -0.5px;
         
-        /* Kalimi i ngjyrave (gradient) brenda shkronjave */
-        background: linear-gradient(to right, #1d3319 0%, #305844 25%, #69c3a3 50%, #468670 75%, #18281a 100%);
+        /* Gradienti: i errët në skaje, shumë i hapur/gothajse i bardhë në mes */
+        background: linear-gradient(to right, 
+            #0b1611 0%, 
+            #234233 20%, 
+            #4fa889 40%, 
+            #e6f7f2 50%, 
+            #4fa889 60%, 
+            #234233 80%, 
+            #0b1611 100%
+        );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         
-        /* Hija e fortë vjollcë/rozë prapa tekstit */
-        filter: drop-shadow(3.5px 3.5px 0px #bd4bb1);
+        /* Efekti Chromatic Aberration: Hije cian në të majtë (-2px) dhe magenta në të djathtë (2px) */
+        text-shadow: 
+            -2px 0px 1px rgba(0, 242, 254, 0.8), 
+             2px 0px 1px rgba(255, 0, 128, 0.8);
     }
 
     .products-header p {
@@ -115,11 +125,10 @@
         opacity: 1;
     }
 
-    /* Përshtatja për pajisjet celulare */
     @media (max-width: 768px) {
         .products-header h1 {
-            font-size: 2.5rem; /* Pak më i vogël në telefon që të mos ndahet keq */
-            filter: drop-shadow(2px 2px 0px #bd4bb1);
+            font-size: 2.5rem;
+            text-shadow: -1.5px 0px 1px rgba(0, 242, 254, 0.8), 1.5px 0px 1px rgba(255, 0, 128, 0.8);
         }
 
         .coming-soon-card {
