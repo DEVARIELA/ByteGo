@@ -13,12 +13,13 @@
         color: #1f2937;
     }
 
+    /* Hapësira dhe qendrimi i header-it */
     .products-header {
         text-align: center;
         padding: 90px 20px 50px;
     }
 
-    /* Stilimi i ri i përshtatur fiks si te image_d49d75.png */
+    /* Header-i h1 me gradientin: E zezë -> Mente -> E bardhë */
     .products-header h1 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
         font-size: 4rem;
@@ -26,23 +27,20 @@
         margin-bottom: 12px;
         letter-spacing: -0.5px;
         
-        /* Gradienti: i errët në skaje, shumë i hapur/gothajse i bardhë në mes */
         background: linear-gradient(to right, 
-            #0b1611 0%, 
-            #234233 20%, 
-            #4fa889 40%, 
-            #e6f7f2 50%, 
-            #4fa889 60%, 
-            #234233 80%, 
-            #0b1611 100%
+            #000000 0%, 
+            #4adeb3 25%, 
+            #ffffff 50%, 
+            #4adeb3 75%, 
+            #000000 100%
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         
-        /* Efekti Chromatic Aberration: Hije cian në të majtë (-2px) dhe magenta në të djathtë (2px) */
+        /* Efekti Chromatic Aberration në skaje (cian dhe magenta) */
         text-shadow: 
-            -2px 0px 1px rgba(0, 242, 254, 0.8), 
-             2px 0px 1px rgba(255, 0, 128, 0.8);
+            -2px 0px 1px rgba(0, 242, 254, 0.7), 
+             2px 0px 1px rgba(255, 0, 128, 0.7);
     }
 
     .products-header p {
@@ -140,9 +138,7 @@
         }
     }
 </style>
-
 </head>
-
 <body>
 
 <header class="products-header">
