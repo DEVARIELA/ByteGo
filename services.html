@@ -1,165 +1,140 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ByteGo | Services</title>
-  <link rel="stylesheet" href="services.css">
-  <style> body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: white;
-}
 
-/* HEADER */
-.header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 50px;
-  background: #111827;
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #FFFFFF;
+      color: #333;
+    }
 
-.header h1 {
-  color: #38bdf8;
-}
+    header {
+      background: linear-gradient(90deg, #F1C5E2, #53EFF5);
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 0 0 25px 25px;
+    }
 
-.header nav a {
-  color: white;
-  margin-left: 20px;
-  text-decoration: none;
-}
+    header h1 {
+      margin: 0;
+      font-size: clamp(2rem, 5vw, 3rem);
+    }
 
-.header nav a.active {
-  color: #38bdf8;
-}
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      background: #D1FFFF;
+      flex-wrap: wrap;
+    }
 
-/* HERO */
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
+    nav a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
 
-.hero h2 {
-  font-size: 40px;
-  color: #38bdf8;
-}
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-/* SERVICES */
-.services {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 40px;
-}
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
 
-.card {
-  background: #111827;
-  padding: 20px;
-  border-radius: 12px;
-  transition: 0.3s;
-}
+    .link-box {
+      background: #EBD1FF;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
 
-.card:hover {
-  transform: translateY(-5px);
-  background: #1f2937;
-}
+    .link-box:hover {
+      transform: translateY(-3px);
+    }
 
-.card h3 {
-  color: #38bdf8;
-}
+    .link-box a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 18px;
+    }
 
-.card span {
-  display: block;
-  margin-top: 10px;
-  color: #22c55e;
-  font-weight: bold;
-}
+    .link-box p {
+      margin: 8px 0 0;
+      font-size: 14px;
+    }
 
-/* CTA */
-.cta {
-  text-align: center;
-  padding: 60px 20px;
-  background: #111827;
-}
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #53EFF5;
+      margin-top: 40px;
+      border-radius: 25px 25px 0 0;
+    }
 
-.cta a {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  background: #38bdf8;
-  color: black;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #0b1220;
-  color: gray;
-}</style>
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 3rem;
+      }
+    }
+  </style>
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <h1>ByteGo</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="services.html" class="active">Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<header>
+  <h1>ByteGo Services</h1>
+  <p>Modern websites that help businesses grow online</p>
+</header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <h2>Web Development Services</h2>
-    <p>I build modern, fast and responsive websites that help businesses grow online.</p>
-  </section>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
 
-  <!-- SERVICES -->
-  <section class="services">
+<div class="container">
 
-    <div class="card">
-      <h3>Web Development</h3>
-      <p>Modern, responsive websites with clean design and fast performance.</p>
-      <span>Starting from 150€</span>
-    </div>
+  <h1>What I Offer</h1>
 
-    <div class="card">
-      <h3>Landing Pages</h3>
-      <p>High-converting pages for ads, products and promotions.</p>
-      <span>Starting from 80€</span>
-    </div>
+  <div class="link-box">
+    <a href="#">Web Development</a>
+    <p>Modern, fast and responsive websites for businesses and personal brands.</p>
+  </div>
 
-    <div class="card">
-      <h3>Business Websites</h3>
-      <p>Professional websites for companies, restaurants and services.</p>
-      <span>Starting from 200€</span>
-    </div>
+  <div class="link-box">
+    <a href="#">Landing Pages</a>
+    <p>High-converting pages for ads, products and promotions.</p>
+  </div>
 
-    <div class="card">
-      <h3>Maintenance</h3>
-      <p>Updates, fixes and support for your website.</p>
-      <span>From 30€/month</span>
-    </div>
+  <div class="link-box">
+    <a href="#">Business Websites</a>
+    <p>Professional websites for companies, restaurants and services.</p>
+  </div>
 
-  </section>
+  <div class="link-box">
+    <a href="#">Website Maintenance</a>
+    <p>Updates, fixes and long-term support for your website.</p>
+  </div>
 
-  <!-- CTA -->
-  <section class="cta">
-    <h2>Ready to build your website?</h2>
-    <a href="contact.html">Contact Me</a>
-  </section>
+</div>
 
-  <!-- FOOTER -->
-  <footer>
-    <p>© 2026 ByteGo. All rights reserved.</p>
-  </footer>
+<footer>
+  © 2026 ByteGo. All rights reserved.
+</footer>
 
 </body>
 </html>
